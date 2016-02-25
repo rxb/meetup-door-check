@@ -12,3 +12,6 @@ To run on device, not simulator, open AppDelegate.m and uncomment
 `//jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];`
 
 React stuff is mostly happening in /components/scan.js
+
+QR codes should be Meetup member IDs. 
+For generating, I used this: https://createqrcode.appspot.com/

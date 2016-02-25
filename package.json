@@ -1,0 +1,26 @@
+{
+  "name": "peeps",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "gimme": "git+ssh://git@github.com:meetup/gimme",
+    "meetup-swatches": "github:meetup/meetup-swatches#reactnative",
+    "moment": "^2.11",
+    "react-native": "^0.20.0",
+    "react-native-audioplayer": "^0.2.0",
+    "react-native-barcodescanner": "^1.0.1",
+    "react-native-camera": "^0.3.8",
+    "react-native-foundation": "git+ssh://git@github.com:meetup/react-native-foundation",
+    "react-redux": "^4.1.2",
+    "redux": "^3.1.6",
+    "redux-api": "^0.8.9",
+    "redux-thunk": "^1.0.3",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.1.2"
+  }
+}
